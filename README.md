@@ -5,8 +5,10 @@
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+
+    <br>
+
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-  <br>
   <img src="https://img.shields.io/badge/Pixlr-%2312151A.svg?style=for-the-badge&logo=pixlr&logoColor=white" alt="Pixlr">
   <img src="https://img.shields.io/badge/Elfen%20Lied-%23E5A4CB.svg?style=for-the-badge&logo=youtube&logoColor=white" alt="Elfen Lied">
 </p>
