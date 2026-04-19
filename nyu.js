@@ -1,4 +1,4 @@
-const audio = new Audio('music.mp3');
+const audio = new Audio('music/music.mp3');
 audio.play();
 
 const navButtons = ['github', 'about', 'donate'];
@@ -8,7 +8,7 @@ const head = document.head;
 const favicon = document.createElement('link');
 favicon.rel = 'icon';
 favicon.type = 'image/x-icon';
-favicon.href = 'favicon.jpg';
+favicon.href = 'images/favicon.jpg';
 head.appendChild(favicon);
 
 const pre1 = document.createElement('link');
@@ -95,9 +95,9 @@ Welcome to nyu.js! This is one of my practice projects to learn javascript.
 I was like, it would be a fun and intermidate challange to create a website 
 only in pure javascript, soooooo~ I did it ^^
 `;
-//container.appendChild(musicBox);
-//musicBox.src = "music_box.glb";
-//musicBox.setAttribute("auto-rotate", "");
+container.appendChild(musicBox);
+musicBox.src = "glb/music_box.glb";
+musicBox.setAttribute("auto-rotate", "");
 
 for (const navObject in navButtons) {
     const navButton = document.createElement("button");
@@ -178,13 +178,13 @@ for (const navObject in navButtons) {
 
 // VARIABLES ---------------->>
 const firstColor = "#000000";
-const navColor = "#00000095";
+const navColor = "#0000006c";
 const secondColor = "#0e0e0e";
 const borderColor = "#2a2a2a71";
 
 // STYLING ------------------>>>
 Object.assign(document.body.style, {
-    backgroundImage: "url('background.jpg')",
+    backgroundImage: "url('images/background.jpg')",
     fontFamily: "Meddon",
     backgroundColor: `${firstColor}`,
     backgroundPosition: "center",
@@ -235,7 +235,7 @@ Object.assign(container.style, {
 });
 
 Object.assign(logoText.style, {
-    backgroundImage: "url('nyujslogo.png')",
+    backgroundImage: "url('images/nyujslogo.png')",
     width: "10em",
     height: "6em",
     marginLeft: "1em",
@@ -247,19 +247,19 @@ Object.assign(logoText.style, {
 Object.assign(musicBox.style, {
     width: "30em",
     height: "30em",
-    marginTop: "-4em",
+    marginTop: "-9em",
     marginLeft: "4em",
 })
 
 Object.assign(logoImage.style, {
     width: "40em",
     height: "20em",
-    marginTop: "-4em",
+    marginTop: "7em",
     marginLeft: "4em",
     backgroundPosition: "center",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
-    backgroundImage: "url('logo.png')", 
+    backgroundImage: "url('images/logo.png')", 
     marginLeft: "8em"
 })
 
@@ -297,7 +297,7 @@ Object.assign(subText.style, {
 })
 
 Object.assign(pictureFirst.style, {
-    backgroundImage: "url('picture1.jpg')",
+    backgroundImage: "url('images/picture1.jpg')",
     width: "20em",
     height: "20em",
     backgroundPosition: "center",
@@ -309,12 +309,12 @@ Object.assign(pictureFirst.style, {
     right: "20px",
     zIndex: "2000",
     pointerEvents: "none",
-    opacity: "0.5",
+    opacity: "0.1",
     borderRadius: "2em"
 })
 
 Object.assign(pictureSecond.style, {
-    backgroundImage: "url('picture2.jpg')",
+    backgroundImage: "url('images/picture2.jpg')",
     width: "10em",
     height: "10em",
     backgroundPosition: "center",
@@ -327,12 +327,13 @@ Object.assign(pictureSecond.style, {
     zIndex: "2000",
     pointerEvents: "none",
     marginRight: "21em",
-    opacity: "0.5",
-    borderRadius: "2em"
+    opacity: "0.1",
+    borderRadius: "2em",
+    backdropFilter: "blur(10px)",
 })
 
 Object.assign(pictureThird.style, {
-    backgroundImage: "url('picture3.jpg')",
+    backgroundImage: "url('images/picture3.jpg')",
     width: "10em",
     height: "10em",
     backgroundPosition: "center",
@@ -345,12 +346,13 @@ Object.assign(pictureThird.style, {
     zIndex: "2000",
     pointerEvents: "none",
     marginBottom: "21em",
-    opacity: "0.5",
-    borderRadius: "2em"
+    opacity: "0.1",
+    borderRadius: "2em",
+    backdropFilter: "blur(10px)",
 })
 
 Object.assign(pictureHTML.style, {
-    backgroundImage: "url('html.png')",
+    backgroundImage: "url('images/html.png')",
     width: "7em",
     height: "7em",
     backgroundPosition: "center",
@@ -364,12 +366,13 @@ Object.assign(pictureHTML.style, {
     pointerEvents: "none",
     marginBottom: "21em",
     marginRight: "11em",
-    opacity: "0.2",
-    borderRadius: "2em"
+    opacity: "0.1",
+    borderRadius: "2em",
+    backdropFilter: "blur(10px)",
 })
 
 Object.assign(pictureJS.style, {
-    backgroundImage: "url('js.png')",
+    backgroundImage: "url('images/js.png')",
     width: "6em",
     height: "6em",
     backgroundPosition: "center",
@@ -383,6 +386,7 @@ Object.assign(pictureJS.style, {
     pointerEvents: "none",
     marginRight: "21em",
     marginBottom: "11em",
-    opacity: "0.2",
-    borderRadius: "2em"
+    opacity: "0.1",
+    borderRadius: "2em",
+    backdropFilter: "blur(10px)",
 })
