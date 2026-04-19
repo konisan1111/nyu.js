@@ -82,7 +82,6 @@ document.body.appendChild(pictureHTML);
 document.body.appendChild(pictureJS);
 
 navbar.appendChild(logoText);
-logoText.textContent = "nyu.js";    
 navbar.appendChild(buttonContainer);
 
 document.body.appendChild(container);
@@ -236,19 +235,13 @@ Object.assign(container.style, {
 });
 
 Object.assign(logoText.style, {
-    fontFamily: "Meddon",
-    fontSize: "2em",
+    backgroundImage: "url('nyujslogo.png')",
+    width: "10em",
+    height: "6em",
     marginLeft: "1em",
-    color: "red", 
-    fontWeight: "bold",
-    marginTop: "-.4em",
-    textShadow: `
-        0 0 5px #000000,
-        0 0 10px #000000,
-        0 0 20px #ff0000, 
-        0 0 40px #530000,
-        0 0 60px #530000
-    `
+    backgroundPosition: "center",
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
 })
 
 Object.assign(musicBox.style, {
